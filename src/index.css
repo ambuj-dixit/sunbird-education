@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+ :root {
+  /* Background / main text */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  /* Primary — Soft Formal Red (Clean, Elegant, Not Shouting) */
+  --primary: 0 60% 50%;            /* muted red */
+  --primary-foreground: 0 0% 100%; /* white text on red */
+  --primary-hover: 0 60% 42%;      /* slightly darker soft red */
+
+  /* Secondary — deeper muted red for depth */
+  --secondary: 0 45% 30%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 0 0% 96%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Accent — soft coral */
+  --accent: 0 55% 46%;
+  --accent-foreground: 0 0% 100%;
+
+  /* Destructive — keep slightly stronger red for warnings */
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 0 20% 88%;
+  --input: 0 20% 88%;
+  --ring: 0 45% 40%;                /* soft red focus ring */
+
+  --radius: 0.5rem;
+
+  /* Footer stays dark for readability */
+  --footer-bg: 220 13% 9%;
+  --footer-text: 0 0% 95%;
+
+  /* Animations */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.2s ease-out;
+}
+
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
