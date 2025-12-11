@@ -50,7 +50,7 @@ export const academicSession = {
 
 // SAMPLE: Replace with actual achievements
 export const achievements = {
-  intro: "Sun Bird Education Center takes pride in nurturing excellence across academics, sports, and extracurricular activities. Our students have consistently demonstrated outstanding performance in regional and national competitions.",
+  intro: "Sunbird Education Center takes pride in nurturing excellence across academics, sports, and extracurricular activities. Our students have consistently demonstrated outstanding performance in regional and national competitions.",
   highlights: [
     "100% Pass Rate in Board Examinations for 5 consecutive years",
     "State Champions in Inter-School Science Exhibition 2023",
@@ -67,13 +67,13 @@ export const leadership = {
     name: "Raj Kumar, Principal (Retd.), Government College",
     title: "Principal",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
-    message: "Welcome to Sun Bird Education Center. Our mission is to provide holistic education that nurtures young minds and prepares them for a bright future. We focus on academic excellence while fostering creativity, critical thinking, and strong values. Together, we shape tomorrow's leaders.",
+    message: "Welcome to Sunbird Education Center. Our mission is to provide holistic education that nurtures young minds and prepares them for a bright future. We focus on academic excellence while fostering creativity, critical thinking, and strong values. Together, we shape tomorrow's leaders.",
   },
   manager: {
     name: "Er. Atul Kumar",
     title: "School Manager",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
-    message: "At Sun Bird, we believe in creating a nurturing environment where every child can thrive. Our dedicated team works tirelessly to ensure the highest standards in education and care. We partner with parents to provide the best possible learning experience for your children.",
+    message: "At Sunbird, we believe in creating a nurturing environment where every child can thrive. Our dedicated team works tirelessly to ensure the highest standards in education and care. We partner with parents to provide the best possible learning experience for your children.",
   },
 };
 
@@ -165,7 +165,7 @@ export const visionMission = {
 
 // SAMPLE: About school content
 export const aboutSchool = {
-  history: "Established in 1995, Sun Bird Education Center has been a beacon of quality education for nearly three decades. What started as a small school with just 50 students has grown into a premier educational institution with over 2,000 students and a team of 150+ dedicated educators. Our journey has been marked by continuous innovation, academic excellence, and a commitment to holistic development.",
+  history: "Established in 1995, Sunbird Education Center has been a beacon of quality education for nearly three decades. What started as a small school with just 50 students has grown into a premier educational institution with over 2,000 students and a team of 150+ dedicated educators. Our journey has been marked by continuous innovation, academic excellence, and a commitment to holistic development.",
   overview: "We offer education from LKG to 8th, affiliated with CBSE Board. Our curriculum blends traditional values with modern teaching methodologies, incorporating technology-enabled learning, experiential education, and activity-based teaching. We maintain an optimal teacher-student ratio of 1:20 to ensure personalized attention to every child.",
 };
 

@@ -86,7 +86,7 @@ export const AboutSchool = () => {
           {/* Key Features */}
           <Card>
             <CardContent className="p-8">
-              <h2 className="text-2xl font-heading font-bold mb-6">Why Choose Sun Bird?</h2>
+              <h2 className="text-2xl font-heading font-bold mb-6">Why Choose Sunbird?</h2>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
                   "CBSE Affiliated Curriculum",

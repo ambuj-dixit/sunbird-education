@@ -24,7 +24,7 @@ export const Gallery = () => {
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">Photo Gallery</h1>
           <div className="h-1 w-24 bg-primary mx-auto rounded mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Capturing moments of joy, learning, and achievement at Sun Bird Education Center
+            Capturing moments of joy, learning, and achievement at Sunbird Education Center
           </p>
         </div>
 

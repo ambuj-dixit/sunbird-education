@@ -38,7 +38,7 @@ export const PrincipalsDesk = () => {
                   <p>{leadership.principal.message}</p>
                   <p>
                     Education is not just about textbooks and examinations; it's about building character,
-                    developing critical thinking, and instilling values that last a lifetime. At Sun Bird
+                    developing critical thinking, and instilling values that last a lifetime. At Sunbird
                     Education Center, we strive to create an environment where every student can discover
                     their unique talents and pursue their passions.
                   </p>

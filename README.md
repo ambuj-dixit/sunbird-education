@@ -1,4 +1,4 @@
-📘 Sun Bird Education Center – Official Website
+📘 Sunbird Education Center – Official Website
 
 A fully responsive, modern, and futuristic school website built using React (TypeScript) and Tailwind CSS, designed for performance, modularity, and easy content editing.
 

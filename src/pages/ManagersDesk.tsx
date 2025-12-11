@@ -39,7 +39,7 @@ export const ManagersDesk = () => {
                   <p>
                     Managing a school is not just about administration; it's about creating a safe,
                     supportive, and inspiring environment where students can flourish. We take great pride
-                    in our facilities, our staff, and most importantly, our students who make Sun Bird
+                    in our facilities, our staff, and most importantly, our students who make Sunbird
                     Education Center a special place.
                   </p>
                   <p>
