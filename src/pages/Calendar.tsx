@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, Printer, Calendar as CalendarIcon } from "lucide-react";
-import { academicCalendar } from "@/data/calendar";
+import { academicCalendar, calendarPdfUrl } from "@/data/calendar";
 
 export const Calendar = () => {
   const getEventTypeColor = (type: string) => {
@@ -24,7 +24,7 @@ export const Calendar = () => {
   };
 
   const handleDownload = () => {
-    alert("PDF download would start here. Connect this to your actual PDF file.");
+    window.open(calendarPdfUrl, "_blank");
   };
 
   const handlePrint = () => {
@@ -35,11 +35,15 @@ export const Calendar = () => {
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
+
+          {/* Page Header */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">Academic Calendar</h1>
+            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
+              Academic Calendar
+            </h1>
             <div className="h-1 w-24 bg-primary mx-auto rounded mb-6" />
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Academic Year 2024-25 • Session begins April 2024
+              Academic Year 2025–26 • Session begins April 2025
             </p>
           </div>
 
@@ -58,7 +62,7 @@ export const Calendar = () => {
           {/* Legend */}
           <Card className="mb-8">
             <CardContent className="p-6">
-              <h3 className="font-semibold mb-4">Event Types:</h3>
+              <h3 className="font-semibold mb-4">Event Types</h3>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-red-500" />
@@ -80,7 +84,7 @@ export const Calendar = () => {
             </CardContent>
           </Card>
 
-          {/* Calendar Events */}
+          {/* Calendar Data */}
           <div className="space-y-6">
             {academicCalendar.map((monthData, index) => (
               <Card key={index} className="overflow-hidden">
@@ -90,6 +94,7 @@ export const Calendar = () => {
                     {monthData.month}
                   </h2>
                 </div>
+
                 <CardContent className="p-6">
                   <div className="space-y-3">
                     {monthData.events.map((event, eventIndex) => (
@@ -101,15 +106,20 @@ export const Calendar = () => {
                       >
                         <div className="flex-1">
                           <div className="flex items-start gap-3">
-                            <span className="font-bold text-sm whitespace-nowrap">{event.date}</span>
+                            <span className="font-bold text-sm whitespace-nowrap">
+                              {event.date}
+                            </span>
                             <div>
                               <p className="font-semibold">{event.title}</p>
                               {event.description && (
-                                <p className="text-sm mt-1 opacity-90">{event.description}</p>
+                                <p className="text-sm mt-1 opacity-90">
+                                  {event.description}
+                                </p>
                               )}
                             </div>
                           </div>
                         </div>
+
                         <span className="text-xs font-semibold px-3 py-1 rounded-full bg-background/50 self-start sm:self-center">
                           {getEventTypeLabel(event.type)}
                         </span>
@@ -121,43 +131,22 @@ export const Calendar = () => {
             ))}
           </div>
 
-          {/* Important Notes */}
+          {/* Notes */}
           <Card className="mt-12">
             <CardContent className="p-6">
-              <h3 className="font-heading font-bold text-lg mb-4">Important Notes:</h3>
+              <h3 className="font-heading font-bold text-lg mb-4">
+                Important Notes
+              </h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>
-                    The calendar is subject to change. Any modifications will be communicated to parents in
-                    advance.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>
-                    Students are expected to attend school on all working days unless on authorized leave.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>
-                    Examination dates are tentative and will be confirmed one month in advance.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>Parent-teacher meetings are mandatory for all parents to attend.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>
-                    For any queries regarding the calendar, please contact the school office.
-                  </span>
-                </li>
+                <li>• The calendar is subject to change if required.</li>
+                <li>• Examination dates are tentative and will be confirmed in advance.</li>
+                <li>• Parent-teacher meetings are mandatory.</li>
+                <li>• Students must attend school on all working days.</li>
+                <li>• For queries, please contact the school office.</li>
               </ul>
             </CardContent>
           </Card>
+
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-// SAMPLE ACADEMIC CALENDAR DATA - Replace with your actual academic calendar
+// ACADEMIC CALENDAR – SESSION 2025–26 (Indian School System)
 
 export interface CalendarEvent {
   month: string;
@@ -13,78 +13,77 @@ export interface CalendarEvent {
 // Academic year starts in April (Indian school system)
 export const academicCalendar: CalendarEvent[] = [
   {
-    month: "April 2024",
+    month: "April 2025",
     events: [
       { date: "April 1", title: "New Academic Session Begins", type: "event" },
-      { date: "April 14", title: "Ambedkar Jayanti (Holiday)", type: "holiday" },
-      { date: "April 21", title: "Ramadan Eid (Holiday)", type: "holiday" },
+      { date: "April 14", title: "Dr. Ambedkar Jayanti (Holiday)", type: "holiday" },
+      { date: "April 18", title: "Good Friday (Holiday)", type: "holiday" },
     ],
   },
   {
-    month: "May 2024",
+    month: "May 2025",
     events: [
       { date: "May 1", title: "Labour Day (Holiday)", type: "holiday" },
-      { date: "May 23", title: "Buddha Purnima (Holiday)", type: "holiday" },
-      { date: "May 27-31", title: "First Term Unit Test I", type: "exam" },
+      { date: "May 12-16", title: "Unit Test – I", type: "exam" },
+      { date: "May 25-31", title: "Summer Vacation Begins", type: "holiday" },
     ],
   },
   {
-    month: "June 2024",
+    month: "June 2025",
     events: [
-      { date: "June 17", title: "Eid ul-Adha (Holiday)", type: "holiday" },
-      { date: "June 1-15", title: "Summer Vacation", type: "holiday" },
+      { date: "June 1-30", title: "Summer Vacation Continues", type: "holiday" },
     ],
   },
   {
-    month: "July 2024",
+    month: "July 2025",
     events: [
-      { date: "July 17", title: "Muharram (Holiday)", type: "holiday" },
-      { date: "July 22-26", title: "First Term Examination", type: "exam" },
+      { date: "July 1", title: "School Reopens After Summer Vacation", type: "event" },
+      { date: "July 10", title: "Muharram (Holiday)", type: "holiday" },
+      { date: "July 21-25", title: "Periodic Assessment – I", type: "exam" },
     ],
   },
   {
-    month: "August 2024",
+    month: "August 2025",
     events: [
+      { date: "August 9", title: "Raksha Bandhan (Holiday)", type: "holiday" },
       { date: "August 15", title: "Independence Day Celebration", type: "event" },
+      { date: "August 18-22", title: "Parent-Teacher Meeting", type: "activity" },
       { date: "August 26", title: "Janmashtami (Holiday)", type: "holiday" },
-      { date: "August 5-9", title: "Parent-Teacher Meeting", type: "activity" },
     ],
   },
   {
-    month: "September 2024",
+    month: "September 2025",
     events: [
-      { date: "September 5", title: "Teachers' Day Celebration", type: "event" },
-      { date: "September 16", title: "Milad un-Nabi (Holiday)", type: "holiday" },
-      { date: "September 23-27", title: "Second Term Unit Test I", type: "exam" },
+      { date: "September 5", title: "Teachers’ Day Celebration", type: "event" },
+      { date: "September 15-19", title: "Half-Yearly Examination", type: "exam" },
     ],
   },
   {
-    month: "October 2024",
+    month: "October 2025",
     events: [
       { date: "October 2", title: "Gandhi Jayanti (Holiday)", type: "holiday" },
-      { date: "October 12", title: "Dussehra (Holiday)", type: "holiday" },
-      { date: "October 13-23", title: "Dussehra Break", type: "holiday" },
-      { date: "October 31", title: "Diwali (Holiday)", type: "holiday" },
+      { date: "October 3-12", title: "Dussehra Vacation", type: "holiday" },
+      { date: "October 20", title: "School Reopens After Dussehra Break", type: "event" },
     ],
   },
   {
-    month: "November 2024",
+    month: "November 2025",
     events: [
-      { date: "November 1-3", title: "Diwali Break", type: "holiday" },
-      { date: "November 14", title: "Children's Day Celebration", type: "event" },
-      { date: "November 25-29", title: "Second Term Examination", type: "exam" },
+      { date: "November 1-3", title: "Diwali Vacation", type: "holiday" },
+      { date: "November 14", title: "Children’s Day Celebration", type: "event" },
+      { date: "November 24-28", title: "Unit Test – II", type: "exam" },
     ],
   },
   {
-    month: "December 2024",
+    month: "December 2025",
     events: [
-      { date: "December 2-6", title: "Parent-Teacher Meeting", type: "activity" },
+      { date: "December 6", title: "Parent-Teacher Meeting", type: "activity" },
       { date: "December 25", title: "Christmas (Holiday)", type: "holiday" },
-      { date: "December 26-31", title: "Winter Break", type: "holiday" },
+      { date: "December 26-31", title: "Winter Vacation", type: "holiday" },
     ],
   },
   {
-    month: "January 2025",
+    month: "January 2026",
     events: [
       { date: "January 1", title: "New Year (Holiday)", type: "holiday" },
       { date: "January 14", title: "Makar Sankranti (Holiday)", type: "holiday" },
@@ -92,23 +91,29 @@ export const academicCalendar: CalendarEvent[] = [
     ],
   },
   {
-    month: "February 2025",
+    month: "February 2026",
     events: [
-      { date: "February 3-7", title: "Annual Examination Pre-Board", type: "exam" },
-      { date: "February 19", title: "Maha Shivaratri (Holiday)", type: "holiday" },
-      { date: "February 24-28", title: "Annual Sports Week", type: "activity" },
+      { date: "February 9-13", title: "Pre-Annual Examination", type: "exam" },
+      { date: "February 18", title: "Maha Shivaratri (Holiday)", type: "holiday" },
+      { date: "February 23-27", title: "Annual Sports Week", type: "activity" },
     ],
   },
   {
-    month: "March 2025",
+    month: "March 2026",
     events: [
-      { date: "March 1-15", title: "Annual Board Examinations", type: "exam" },
-      { date: "March 14", title: "Holi (Holiday)", type: "holiday" },
+      { date: "March 2-13", title: "Annual Examination", type: "exam" },
+      { date: "March 8", title: "Holi (Holiday)", type: "holiday" },
       { date: "March 20", title: "Annual Day Function", type: "event" },
-      { date: "March 31", title: "Result Declaration", description: "Academic session ends", type: "event" },
+      {
+        date: "March 31",
+        title: "Result Declaration & Session Ends",
+        description: "End of Academic Session 2025–26",
+        type: "event",
+      },
     ],
   },
 ];
 
-// For downloadable PDF placeholder
-export const calendarPdfUrl = "/downloads/academic-calendar-2024-25.pdf"; // SAMPLE: Replace with actual PDF
+// Downloadable PDF
+export const calendarPdfUrl = "/downloads/academic-calendar-2025.pdf";
+

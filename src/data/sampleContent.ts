@@ -172,9 +172,9 @@ export const aboutSchool = {
 // SAMPLE: Downloadable documents
 export const downloads = [
   {
-    title: "Fee Structure 2024-25",
+    title: "Fee Structure 2025-26",
     description: "Complete fee details for all classes including admission fees, tuition fees, and other charges.",
-    filename: "fee-structure-2024-25.pdf",
+    filename: "fee-structure-2025-26.pdf",
     size: "245 KB",
   },
   {
@@ -192,7 +192,7 @@ export const downloads = [
   {
     title: "School Prospectus",
     description: "Detailed prospectus covering admission process, curriculum, and facilities.",
-    filename: "school-prospectus-2024.pdf",
+    filename: "school-prospectus-2025.pdf",
     size: "3.2 MB",
   },
   {
