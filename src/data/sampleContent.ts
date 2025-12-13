@@ -172,10 +172,10 @@ export const aboutSchool = {
 // SAMPLE: Downloadable documents
 export const downloads = [
   {
-    title: "Fee Structure 2025-26",
-    description: "Complete fee details for all classes including admission fees, tuition fees, and other charges.",
-    filename: "fee-structure-2025-26.pdf",
-    size: "245 KB",
+    title: "Fee Structure 2025–26",
+    description: "Official school fee structure for Nursery to Class 8 (Academic Session 2025–26).",
+    filename: "Sun_Bird_Education_Center_Fee_Structure_2025_26.pdf",
+    size: "Approx. 250 KB",
   },
   {
     title: "Water Quality Certificate",
