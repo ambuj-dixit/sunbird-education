@@ -33,7 +33,7 @@ export const schoolInfo = {
   name: "Sunbird Education Centre",
   tagline: "Nurturing Minds, Shaping Futures",
   phone: "+91-9305076203", // SAMPLE: Replace with actual phone
-  email: "sunbirdeducation56@gmail.com", // SAMPLE: Replace with actual email
+  email: "sunbirdeducation@gmail.com", // SAMPLE: Replace with actual email
   address: "438, k block, Pulia 17, Yashoda Nagar, Kanpur, Uttar Pradesh 208011", // SAMPLE: Replace with actual address
   
   // SAMPLE: Update with your actual social media handles
