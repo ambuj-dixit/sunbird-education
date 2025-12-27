@@ -115,7 +115,7 @@ export const Home = () => {
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-square overflow-hidden">
                 <img
-                  src={leadership.principal.image}
+                  src={leadership.principal.url}
                   alt={leadership.principal.name}
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -134,7 +134,7 @@ export const Home = () => {
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-square overflow-hidden">
                 <img
-                  src={leadership.manager.image}
+                  src={leadership.manager.url}
                   alt={leadership.manager.name}
                   className="w-full h-full object-cover"
                   loading="lazy"
