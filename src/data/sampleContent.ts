@@ -23,6 +23,12 @@ import national2 from "@/assets/gallery/national2.jpg";
 import national3 from "@/assets/gallery/national3.jpg";
 import national4 from "@/assets/gallery/national4.jpg";
 
+//management picture's
+import principal from "@/assets/management/principal .jpeg";
+import director from "@/assets/management/director.jpg";
+import { url } from "inspector";
+
+
 export const schoolInfo = {
   name: "Sunbird Education Centre",
   tagline: "Nurturing Minds, Shaping Futures",
@@ -66,13 +72,13 @@ export const leadership = {
   principal: {
     name: "Raj Kumar, Principal (Retd.), Government College",
     title: "Principal",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+    url: director,
     message: "Welcome to Sunbird Education Center. Our mission is to provide holistic education that nurtures young minds and prepares them for a bright future. We focus on academic excellence while fostering creativity, critical thinking, and strong values. Together, we shape tomorrow's leaders.",
   },
   manager: {
     name: "Er. Atul Kumar",
     title: "School Manager",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+    url: principal,
     message: "At Sunbird, we believe in creating a nurturing environment where every child can thrive. Our dedicated team works tirelessly to ensure the highest standards in education and care. We partner with parents to provide the best possible learning experience for your children.",
   },
 };
